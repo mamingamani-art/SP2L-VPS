@@ -1,0 +1,16 @@
+InpTimeframe=5||5||1||5||N
+InpLot=0.1||0.1||0.1||0.1||N
+InpSpikeMultiplier=1.5||1.5||0.1||1.5||N
+InpPriceGapPoints=20||20||1||20||N
+InpMaxSLDistancePoints=100||100||1||100||N
+InpTakeProfitR=1.0||1.0||0.1||1.0||N
+InpUseEMAFilter=true||true||0||true||N
+InpEMAPeriod=60||60||1||60||N
+InpUseTrendFilter=true||true||0||true||N
+InpMaxOppositeMoves=1||1||1||1||N
+InpUseADXRising=true||true||0||true||N
+InpADXPeriod=14||14||1||14||N
+InpUseSecondEntry=true||true||0||true||N
+InpSecondEntryMultiplier=2.0||2.0||0.1||2.0||N
+InpMagic=58||58||1||58||N
+InpSecondMagic=59||59||1||59||N
