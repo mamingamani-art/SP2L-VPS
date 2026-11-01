@@ -4,13 +4,14 @@ This repository contains the SP2L MetaTrader 5 VPS package, including the compil
 
 ## Included files
 
+- `SP2L_Advanced_Optimized_M5.mq5` — MQL5 source for the VPS Expert Advisor.
 - `SP2L_Advanced_Optimized_M5.ex5` — compiled MT5 Expert Advisor, used by the XAUUSD and US30 presets.
 - `SP2L_M5_Robust_Selected_17M.set` — XAUUSD M5 preset.
 - `SP2L_US30_M5_Robust_Selected.set` — US30 M5 preset.
 - `SP2L_US500_M5/SP2L_US500_M5_Robust_Selected.set` — US500 M5 preset included in the source package.
 - `SP2L_VPS_INSTALL_FA.txt` — installation guide in Persian.
 
-The duplicate copy of the compiled EA from the original nested folder is omitted; the top-level binary is the same package artifact. Source code (`.mq5`) is not included.
+The duplicate copy of the compiled EA from the original nested folder is omitted; the top-level binary is the same package artifact. The included `.mq5` source has the same basename as the VPS `.ex5`; its compiled output matches the binary included here.
 
 ## Installation
 
