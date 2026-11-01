@@ -1,0 +1,43 @@
+پکیج اجرای SP2L روی Windows VPS
+
+فایل EA مشترک:
+SP2L_Advanced_Optimized_M5.ex5
+
+تنظیم طلا:
+Symbol: XAUUSD
+Timeframe: M5
+Preset: SP2L_M5_Robust_Selected_17M.set
+Lot: 0.01
+Spike Multiplier: 1.7
+Max SL Distance: 600 points
+EMA Period: 60
+Magic Numbers: 8 و 9
+
+تنظیم US30:
+Symbol: US30
+Timeframe: M5
+Preset: SP2L_US30_M5_Robust_Selected.set
+Lot: 0.01
+Spike Multiplier: 1.7
+Max SL Distance: 600 points
+EMA Period: 60
+Magic Numbers: 28 و 29
+
+مراحل نصب:
+1. فایل ZIP را داخل VPS Extract کنید.
+2. در MT5 از منوی File گزینه Open Data Folder را بزنید.
+3. فایل SP2L_Advanced_Optimized_M5.ex5 را داخل MQL5\Experts کپی کنید.
+4. MT5 را Restart کنید یا در Navigator روی Expert Advisors راست‌کلیک و Refresh را بزنید.
+5. دو چارت جدا باز کنید: XAUUSD روی M5 و US30 روی M5.
+6. EA را روی چارت XAUUSD بیندازید، در Inputs گزینه Load را بزنید و preset طلا را انتخاب کنید.
+7. EA را روی چارت US30 بیندازید، در Inputs گزینه Load را بزنید و preset US30 را انتخاب کنید.
+8. در Common گزینه Allow Algo Trading را فعال کنید.
+9. دکمه Algo Trading بالای MT5 باید روشن باشد.
+10. در Toolbox، تب Experts و Journal را بررسی کنید و مطمئن شوید خطای initialization وجود ندارد.
+
+نکات مهم:
+- نسخه M1 روی US30 استفاده نشود؛ نتیجه بک‌تست آن منفی بود.
+- ربات MAP-manager را از چارت US30 حذف کنید تا هم‌زمان با SP2L معامله نکند.
+- فقط یک نسخه از هر EA اجرا شود؛ اجرای هم‌زمان روی کامپیوتر محلی و VPS باعث معاملات تکراری می‌شود.
+- قبل از حساب واقعی، ابتدا روی حساب Demo اجرا کنید.
+- برای قطع Remote Desktop فقط Disconnect کنید و از Windows VPS Sign out نکنید. MT5 باید داخل VPS باز بماند.
