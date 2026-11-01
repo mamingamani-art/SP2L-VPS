@@ -1,0 +1,17 @@
+; US30 M5 selection from long training plus forward validation.
+InpTimeframe=5||5||1||5||N
+InpLot=0.01||0.01||0.01||0.01||N
+InpSpikeMultiplier=1.7||1.7||0.1||1.7||N
+InpPriceGapPoints=100||100||1||100||N
+InpMaxSLDistancePoints=600||600||100||600||N
+InpTakeProfitR=1.0||1.0||0.1||1.0||N
+InpUseEMAFilter=true||true||0||true||N
+InpEMAPeriod=60||60||1||60||N
+InpUseTrendFilter=true||true||0||true||N
+InpMaxOppositeMoves=1||1||1||1||N
+InpUseADXRising=true||true||0||true||N
+InpADXPeriod=14||14||1||14||N
+InpUseSecondEntry=true||true||0||true||N
+InpSecondEntryMultiplier=2.0||2.0||0.1||2.0||N
+InpMagic=28||28||1||28||N
+InpSecondMagic=29||29||1||29||N
